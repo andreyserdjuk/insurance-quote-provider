@@ -17,7 +17,7 @@ composer install
 php bin/phpunit
 ```
 
-#### Compliance with best practices.
+#### Compliance with best practices (for `./original/file.php`)
 * Class `Insurance` and its use-case placed in the same file `file.php`.
 It will prevent `PSR-4` autoloader from properly resolving it.
 
