@@ -55,7 +55,7 @@ flag is passed. This case is not handled properly.
 
 * Hardcoded URL's should be injected instead of usage of string literals.
 
-* Usually method using for getting some data starting with 'get' or 'fetch' or 'load'. Current `quote` method name
+* Usually method for getting some data starts with 'get' or 'fetch' or 'load'. Current `quote` method name
 is not descriptive.
 
 * Method `quote` returns an array. It's better to `yield` data as soon as it's available to smooth the possible 
