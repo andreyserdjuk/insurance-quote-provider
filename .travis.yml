@@ -1,0 +1,25 @@
+language: php
+
+os: linux
+
+dist: xenial
+
+git:
+  depth: 3
+
+php:
+  - '7.4.1'
+
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer install --no-interaction --prefer-source
+
+script:
+  - ./bin/phpunit --testsuite unit --coverage-clover coverage.xml
+
+env:
+  - CODECOV_TOKEN="34400cde-9b49-4fed-8d91-6da51bda28f2"
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -f $TRAVIS_BUILD_DIR/coverage.xml
+
