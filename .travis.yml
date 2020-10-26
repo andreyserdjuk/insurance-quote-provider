@@ -18,7 +18,7 @@ script:
   - ./bin/phpunit --testsuite unit --coverage-clover coverage.xml
 
 env:
-  - CODECOV_TOKEN="34400cde-9b49-4fed-8d91-6da51bda28f2"
+  - CODECOV_TOKEN="fd98f43c-0979-4905-bef6-47463caa677d"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -f $TRAVIS_BUILD_DIR/coverage.xml
