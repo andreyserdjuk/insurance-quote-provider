@@ -1,4 +1,5 @@
 #### Refactoring subject
+> [![Build Status](https://travis-ci.org/andreyserdjuk/insurance-quote-provider.svg?branch=master)](https://travis-ci.org/andreyserdjuk/insurance-quote-provider)  
 > The original file is `./original/file.php`  
 > Below is the list of problems and recommendations for `Insurance` class.
 
