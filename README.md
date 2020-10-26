@@ -1,7 +1,7 @@
 #### Refactoring subject
 > [![Build Status](https://travis-ci.org/andreyserdjuk/insurance-quote-provider.svg?branch=master)](https://travis-ci.org/andreyserdjuk/insurance-quote-provider)
 > [![codecov](https://codecov.io/gh/andreyserdjuk/insurance-quote-provider/branch/master/graph/badge.svg?token=6F1I7TUV84)](https://codecov.io/gh/andreyserdjuk/insurance-quote-provider)
-> [![Code Coverage](https://scrutinizer-ci.com/g/andreyserdjuk/insurance-quote-provider/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/andreyserdjuk/insurance-quote-provider/?branch=master)  
+> [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/andreyserdjuk/insurance-quote-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/andreyserdjuk/insurance-quote-provider/?branch=master)  
 > The original file is `./original/file.php`  
 > Below is the list of problems and recommendations for `Insurance` class.
 
